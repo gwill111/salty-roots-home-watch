@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Salty Roots Home Watch & Estate Management Services</title>
+  <meta name="description" content="Home Watch and Estate Management Services in Marco Island, Naples, Bonita Springs, Estero and SW Florida.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    .hero-bg { 
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), 
+                  url('https://source.unsplash.com/2000x1200/?aerial-marco-island') center/cover no-repeat; 
+    }
+  </style>
+</head>
+<body class="font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <!-- Logo -->
+      <div class="flex items-center gap-4">
+        <img src="assets/logo.png" alt="Salty Roots" class="h-12">
+        <div>
+          <span class="text-2xl font-bold text-teal-900">Salty Roots</span>
+          <span class="block text-xs tracking-widest text-teal-600 -mt-1">HOME WATCH</span>
+        </div>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex gap-8 text-gray-700 font-medium">
+        <a href="index.html" class="hover:text-teal-600 transition">Home</a>
+        <a href="services.html" class="hover:text-teal-600 transition">Services</a>
+        <a href="about.html" class="hover:text-teal-600 transition">About</a>
+        <a href="areas.html" class="hover:text-teal-600 transition">Service Areas</a>
+        <a href="contact.html" class="hover:text-teal-600 transition">Contact</a>
+      </div>
+
+      <!-- Phone Button (desktop) -->
+      <a href="tel:2392594105" 
+         class="bg-teal-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-teal-800 transition hidden md:block">
+        (239) 259-4105
+      </a>
+
+      <!-- Mobile Hamburger -->
+      <button id="mobile-menu-btn" class="md:hidden text-3xl text-teal-900">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+      <div class="px-6 py-6 flex flex-col gap-4 text-gray-700 font-medium">
+        <a href="index.html" class="hover:text-teal-600">Home</a>
+        <a href="services.html" class="hover:text-teal-600">Services</a>
+        <a href="about.html" class="hover:text-teal-600">About</a>
+        <a href="areas.html" class="hover:text-teal-600">Service Areas</a>
+        <a href="contact.html" class="hover:text-teal-600">Contact</a>
+        <a href="tel:2392594105" class="bg-teal-700 text-white text-center py-4 rounded-full font-semibold mt-4">
+          Call (239) 259-4105
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero-bg h-[60vh] flex items-center text-white text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h1 class="text-5xl md:text-6xl font-bold">Our Services</h1>
+      <p class="text-2xl mt-4">Premium Home Watch & Estate Management</p>
+    </div>
+  </header>
