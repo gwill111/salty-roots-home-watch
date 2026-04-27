@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salty Roots Home Watch & Estate Management Services | Marco Island & SW Florida</title>
+  <meta name="description" content="Premium home watch and estate management services in Marco Island, Naples, Bonita Springs, Estero and Southwest Florida. Veteran owned.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    .hero-bg { 
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), 
+                  url('https://images.pexels.com/photos/9874006/pexels-photo-9874006.jpeg') center/cover no-repeat;
+      transition: background-image 4.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center">
+      <div class="flex items-center gap-4 flex-shrink-0">
+        <img src="mangrove.png" alt="Salty Roots Mangrove" class="h-16 w-auto">
+        <div>
+          <span class="text-4xl font-bold text-teal-900 tracking-tight">Salty Roots</span>
+          <span class="block text-xl font-semibold tracking-[2px] text-teal-600 -mt-1">HOME WATCH & ESTATE MANAGEMENT SERVICES</span>
+        </div>
+      </div>
+
+      <div class="hidden md:flex gap-8 text-gray-700 font-medium ml-auto">
+        <a href="#home" class="hover:text-teal-600 transition">Home</a>
+        <a href="#services" class="hover:text-teal-600 transition">Services</a>
+        <a href="#about" class="hover:text-teal-600 transition">About</a>
+        <a href="#areas" class="hover:text-teal-600 transition">Service Areas</a>
+      </div>
+
+      <button id="mobile-menu-btn" class="md:hidden text-3xl text-teal-900 ml-auto">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+      <div class="px-6 py-6 flex flex-col gap-4 text-gray-700 font-medium">
+        <a href="#home" class="hover:text-teal-600">Home</a>
+        <a href="#services" class="hover:text-teal-600">Services</a>
+        <a href="#about" class="hover:text-teal-600">About</a>
+        <a href="#areas" class="hover:text-teal-600">Service Areas</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO - Single line headline -->
+  <section id="home" class="hero-bg h-screen flex items-center text-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h1 class="text-5xl md:text-6xl font-bold mb-6">Premium Services * Rooted Values</h1>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#contact" class="bg-white text-teal-800 px-10 py-4 rounded-full text-xl font-semibold">Request an Appointment</a>
+        <a href="tel:2392594105" class="border-2 border-white px-10 py-4 rounded-full text-xl font-semibold">Call (239) xxx-xxxx</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Why Choose Salty Roots</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-3xl shadow"><strong>Husband & Wife Team</strong> — Personally involved in every service</div>
+        <div class="bg-white p-8 rounded-3xl shadow"><strong>Retired U.S. Veteran Owned</strong> — Discipline, integrity & trust</div>
+        <div class="bg-white p-8 rounded-3xl shadow"><strong>7th Generation Floridian</strong> — Deep local knowledge</div>
+        <div class="bg-white p-8 rounded-3xl shadow"><strong>Certified Home Watch Academy Graduate</strong></div>
+        <div class="bg-white p-8 rounded-3xl shadow"><strong>Fully Licensed & Insured</strong></div>
+        <div class="bg-white p-8 rounded-3xl shadow"><strong>Marco Island & Paradise Coast Specialists</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Our Services</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="space-y-8">
+          <div class="bg-white p-8 rounded-3xl shadow">
+            <h3 class="text-2xl font-semibold mb-4">Weekly or Bi-weekly Home Observations</h3>
+            <p class="text-gray-600">Thorough interior and exterior observations of your property.</p>
+          </div>
+          <div class="bg-white p-8 rounded-3xl shadow">
+            <h3 class="text-2xl font-semibold mb-4">Water Zones Specific Review</h3>
+            <p class="text-gray-600">Special attention to irrigation, pools, docks, and waterfront areas common on the Paradise Coast.</p>
+          </div>
+          <div class="bg-white p-8 rounded-3xl shadow">
+            <h3 class="text-2xl font-semibold mb-4">Detailed Observation Reports</h3>
+            <p class="text-gray-600">Timestamped photos and comprehensive reports delivered to your inbox after every visit.</p>
+          </div>
+        </div>
+        <div class="space-y-8">
+          <div class="bg-white p-8 rounded-3xl shadow">
+            <h3 class="text-2xl font-semibold mb-4">Other Services Available</h3>
+            <ul class="space-y-3 text-gray-700">
+              <li class="flex items-center gap-3"><i class="fa-solid fa-check text-teal-600"></i> Mail & Package Collection</li>
+              <li class="flex items-center gap-3"><i class="fa-solid fa-check text-teal-600"></i> Delivery Reception</li>
+              <li class="flex items-center gap-3"><i class="fa-solid fa-check text-teal-600"></i> 24/7 Emergency Response</li>
+              <li class="flex items-center gap-3"><i class="fa-solid fa-check text-teal-600"></i> Vendor Coordination</li>
+              <li class="flex items-center gap-3"><i class="fa-solid fa-check text-teal-600"></i> Concierge Services</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-4xl font-bold mb-8 text-center">About Salty Roots Home Watch LLC</h2>
+      <div class="prose prose-lg mx-auto">
+        <p>Salty Roots Home Watch LLC is a husband-and-wife owned and operated company founded by a retired U.S. Veteran and 7th generation Floridian. Over two decades of dedicated service to our country prepared us to now serve our local community with premium home watch services throughout Southwest Florida.</p>
+        <p>We understand the unique needs of Florida property owners — whether you are a snowbird, frequent traveler, or full-time resident who wants extra peace of mind. As a Certified Home Watch Academy Graduate, we follow professional standards and best practices in the industry. Our commitment to excellence is backed by full licensing and insurance, so you can trust that your home is in capable, caring hands.</p>
+        <p>At Salty Roots, we combine modern technology with old-fashioned personal service. Every visit includes a detailed interior and exterior observation, timestamped photos, and a comprehensive report delivered straight to your inbox. Our mission is simple: deliver premium service rooted in strong values, honesty, and genuine care.</p>
+        <p class="font-semibold text-xl text-teal-700 mt-10 text-center">Premium Service — Rooted Values.<br>It’s more than our tagline — it’s our promise.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREAS -->
+  <section id="areas" class="py-20">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl font-bold mb-8">We Proudly Serve</h2>
+          <ul class="space-y-6 text-xl">
+            <li class="flex items-center gap-4"><i class="fa-solid fa-location-dot text-teal-600 text-3xl"></i> <strong>Marco Island</strong></li>
+            <li class="flex items-center gap-4"><i class="fa-solid fa-location-dot text-teal-600 text-3xl"></i> <strong>Naples</strong></li>
+            <li class="flex items-center gap-4"><i class="fa-solid fa-location-dot text-teal-600 text-3xl"></i> <strong>Bonita Springs</strong></li>
+            <li class="flex items-center gap-4"><i class="fa-solid fa-location-dot text-teal-600 text-3xl"></i> <strong>Estero</strong></li>
+          </ul>
+          <p class="mt-12 text-gray-600 text-lg">...and surrounding Paradise Coast communities in Southwest Florida.</p>
+        </div>
+        <div>
+          <img src="https://source.unsplash.com/800x1000/?aerial-marco-island" alt="Aerial View of Marco Island" class="rounded-3xl shadow-2xl">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-gray-50">
+    <div class="max-w-2xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Get In Touch</h2>
+      <form name="quote" method="POST" data-netlify="true" class="space-y-8 bg-white p-10 rounded-3xl shadow-xl">
+        <div>
+          <label class="block text-sm font-medium mb-2">Full Name</label>
+          <input type="text" name="name" required class="w-full px-6 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-teal-600">
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-2">Email Address</label>
+          <input type="email" name="email" required class="w-full px-6 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-teal-600">
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-2">Phone Number</label>
+          <input type="tel" name="phone" required class="w-full px-6 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-teal-600">
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-2">Property Address or Area</label>
+          <textarea name="address" rows="3" class="w-full px-6 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-teal-600" placeholder="Marco Island, Naples, etc."></textarea>
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-2">Tell us about your needs</label>
+          <textarea name="message" rows="5" class="w-full px-6 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-teal-600" placeholder="Preferred visit frequency, special requests, etc."></textarea>
+        </div>
+        <button type="submit" class="w-full bg-teal-700 hover:bg-teal-800 text-white py-5 rounded-3xl text-xl font-semibold transition">
+          Submit Request – Get Your Free Quote
+        </button>
+      </form>
+
+      <div class="mt-12 text-center">
+        <p class="text-2xl font-semibold">(239) xxx-xxxx</p>
+        <p class="text-gray-600 mt-2">SaltyRootsHomeWatch@protonmail.com</p>
+        <p class="text-sm text-gray-500 mt-8">We typically respond within 24 hours</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-teal-950 text-white py-12">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <p class="text-2xl font-bold">Salty Roots Home Watch LLC</p>
+      <p>Paradise Coast of Florida • Marco Island • Naples • Bonita Springs • Estero</p>
+      <p class="mt-6">(239) xxx-xxxx • SaltyRootsHomeWatch@protonmail.com</p>
+      <p class="text-sm mt-10">© 2026 Salty Roots Home Watch LLC • Veteran Owned & Operated</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    const btn = document.getElementById('mobile-menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+      const icon = btn.querySelector('i');
+      icon.classList.toggle('fa-bars');
+      icon.classList.toggle('fa-xmark');
+    });
+
+    // Elegant slideshow
+    const hero = document.getElementById('home');
+    const images = [
+      "https://images.pexels.com/photos/9874006/pexels-photo-9874006.jpeg",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+      "https://images.pexels.com/photos/18338663/pexels-photo-18338663.jpeg"
+    ];
+    let index = 0;
+
+    function rotateBackground() {
+      index = (index + 1) % images.length;
+      hero.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('${images[index]}')`;
+    }
+
+    setInterval(rotateBackground, 8500);
+  </script>
+</body>
+</html>
